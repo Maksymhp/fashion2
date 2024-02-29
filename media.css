@@ -1,0 +1,494 @@
+/* @media (max-width:1136px)  {
+    .header__img {
+        max-width: 100%;
+    }
+} */
+
+@media (max-width:1000px) {
+    .header__left {
+        padding-left: 0;
+    }
+    .header__title {
+        font-size: 60px;
+    }
+
+    /* .header__img {
+        max-width: 100%;
+    } */
+    .arrivals__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .arrivals__subtitle {
+        font-size: 15px;
+    }
+
+    .payday__title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .payday__title::before {
+        width: 280px;
+        height: 80px;
+    }
+
+    .app__img {
+        max-width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+
+    .app__information {
+        flex-direction: column-reverse;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+
+    .app__left {
+        margin-top: -300px;
+        max-width: 100%;
+        padding: 50px 130px;
+        background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);;
+    }
+}
+
+@media (max-width:925px){
+
+    .nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header__img {
+        max-width: 415px;
+    }
+
+    .arrivals__info:hover {
+        scale: 1;
+    }
+
+    .favorite__info:hover {
+        scale: 1;
+    }
+}
+@media (max-width:860px) {
+
+    .footer__block {
+        max-width: 250px;
+    }
+
+    .footer__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .footer__item {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:760px) {
+
+    .nav {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .burger__btn {
+        width: 50px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav__items {
+        display: none;
+    }
+    
+    .nav__items--active {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        position: absolute;
+        right: 80px;
+        top: 70px;
+        padding: 3rem 5rem;
+        background-color: #DFC23E;
+        border-radius: 15px;
+        z-index: 2;
+    }
+
+    .nav__link {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .header__information {
+        flex-direction: column;
+        gap: 80px;
+        margin-bottom: 0;
+    }
+
+    .header__left{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .header__title::before {
+        width: 265px;
+        top: 100px;
+        left: 0;
+    }
+
+    .header__subtitle {
+        margin-bottom: 80px;
+    }
+
+    .brands {
+        padding-left: 50px;
+        padding-right: 50px;
+        justify-content: center;
+    }
+    .arrivals__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .payday__info {
+        flex-direction: column;
+    }
+    
+    .payday__left {
+        /* max-width: 300px; */
+    }
+
+    .payday__right {
+        max-width: 100%;
+        padding: 50px 20px 30px 63px;
+        margin-top: -390px;
+        background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    }
+
+    .payday__title {
+        font-size: 43px;
+    }
+
+    .payday__title::before {
+        width: 210px;
+    }
+
+
+    .payday__text {
+        font-size: 23px;
+    }
+
+    .payday__btn {
+        font-size: 20px;
+    }
+
+    .favorite__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app__left {
+        padding: 20px;
+    }
+
+    .footer__info {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer__nav {
+        max-width: 100%;
+    }
+
+    
+    
+}
+
+@media (max-width:600px) {
+    .nav__items--active {
+        width: 100%;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .header__left {
+        padding-top: 0;
+    }
+
+    .payday__right {
+        margin-top: -250px;
+    }
+
+}
+
+@media (max-width:450px) {
+    .header__img {
+        max-width: 100%;
+    }
+    .header__title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .header__button {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header__btn {
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .header__title::before {
+        width: 190px;
+        height: 80px;
+        left: 75px;
+        top: 120px;
+
+    }
+
+    .title::after {
+        left: 150px;
+    }
+
+    .payday__right {
+        padding-left: 30px;
+    }
+
+    .payday__title {
+        line-height: 45px;
+    }
+
+    .payday__title::before {
+        height: 60px;
+        top: -15px;
+        left: 10;
+    }
+
+    .join__info {
+        padding: 40px 10px;
+    }
+
+    .join__title {
+        font-size: 36px;
+    }
+
+    .join__subtitle {
+        font-size: 22px;
+    }
+
+    .join__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .input__form {
+        max-width: 90%;
+    }
+
+    .input__btn {
+        position: static;
+        width: 90%;
+        padding: 20px 28px;
+    }
+
+    .footer__nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 25px;
+    }
+}
+
+@media (max-width:385px) {
+    .logo {
+        max-width: 100%;
+    }
+    .nav__items--active {
+        gap: 2rem;
+        padding: 40px 20px;
+    }
+
+    .nav__link {
+        font-size: 17px;
+    }
+    .header__title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .header__title::before {
+        height: 50px;
+        left: 0px;
+        top: 110px;
+    }
+
+    .title::after {
+        bottom: -8px;
+        left: 28px;
+    }
+
+    .header__subtitle {
+        font-size: 20px;
+    }
+
+    .header__btn {
+        font-size: 20px;
+    }
+
+    .payday__information {
+        margin-top: 40px;
+    }
+
+    .payday__right {
+        margin-top: -120px;
+    }
+
+    .payday__title {
+        font-size: 32px;
+    }
+
+    .payday__title::before {
+        width: 150px;
+        top: -5px;
+        height: 50px;
+    }
+
+
+    .payday__text {
+        line-height: 27px;
+        font-size: 18px;
+    }
+
+    .payday__btn {
+        font-size: 14px;
+    }
+
+    .app__left {
+        margin-top: -150px;
+    }
+
+    .app__title {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .app__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .app__buttons a:last-child {
+        margin: 0;
+    }
+
+    .join__title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .join__subtitle {
+        font-size: 19px;
+    }
+
+    .input__form {
+        padding: 18px;
+    }
+
+    .footer__information {
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width:270px) {
+
+    .container {
+        padding: 10px;
+    }
+    .header__title {
+        font-size: 30px;
+        line-height: 45px;
+        word-wrap: break-word;
+    }
+
+    .header__title::before {
+        left: 35px;
+        top: 42px;
+        width: 100px;
+    }
+    .payday__right {
+        padding: 20px;
+    }
+
+    .payday__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .payday__title::before {
+        width: 125px;
+        top: -3px;
+        height: 40px;
+    }
+
+    .payday__text {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .payday__btn {
+        font-size: 14px;
+    }
+
+    .app__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .app__subtitle {
+            line-height: 25px;
+            font-size: 15px;
+        
+    }
+
+    .join__title {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .join__subtitle {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:200px) {
+    .payday__btn {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+}
